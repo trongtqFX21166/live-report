@@ -1,0 +1,89 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapLive.TrafficReport.Api", "VietmapLive.TrafficReport.Api\VietmapLive.TrafficReport.Api.csproj", "{87EE4F2E-2F2E-48B7-AD0B-47C0CA76C9D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapLive.TrafficReport.Core", "VietmapLive.TrafficReport.Core\VietmapLive.TrafficReport.Core.csproj", "{713F90CD-5DD1-4812-92D8-AAC9883E9A4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapLive.TrafficReport.Infrastructure", "VietmapLive.TrafficReport.Infrastructure\VietmapLive.TrafficReport.Infrastructure.csproj", "{70451EB8-465B-4A1A-A7D1-E87F60D606D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{2F36C966-3679-4398-ADB3-DD98F2FFBA4D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapLive.BuildingBlocks", "Common\VietmapLive.BuildingBlocks\VietmapLive.BuildingBlocks.csproj", "{9C9E0073-AE26-4A68-979E-D5B05AA036F1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Platform.Serilog", "Common\Platform.Serilog\Platform.Serilog.csproj", "{B52F74D5-5A47-4048-B076-3B11B5CAE889}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapCloud.Shared.Swagger", "Common\VietmapCloud.Shared.Swagger\VietmapCloud.Shared.Swagger.csproj", "{60F1FAFB-6062-41E6-B7D1-DD098A630261}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapCloud.Shared.RestrictAccessSwaggerPage", "Common\VietmapCloud.Shared.RestrictAccessSwaggerPage\VietmapCloud.Shared.RestrictAccessSwaggerPage.csproj", "{0DD1E323-5CF3-4FC8-9A37-6A3DC2711BC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapCloud.Shared.Redis", "Common\VietmapCloud.Shared.Redis\VietmapCloud.Shared.Redis.csproj", "{B910AE3B-B160-41E8-A5E1-16D4BD11D35F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VietmapLive.TrafficReport.Admin.Api", "VietmapLive.TrafficReport.Admin.Api\VietmapLive.TrafficReport.Admin.Api.csproj", "{F70E7096-2F65-4368-941F-0DC2B312754D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VietmapLive.FtpServer", "VietmapLive.FtpServer\VietmapLive.FtpServer.csproj", "{B9B0A32A-7BF6-4C83-8E9E-9EDCEF64FFD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87EE4F2E-2F2E-48B7-AD0B-47C0CA76C9D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87EE4F2E-2F2E-48B7-AD0B-47C0CA76C9D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87EE4F2E-2F2E-48B7-AD0B-47C0CA76C9D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87EE4F2E-2F2E-48B7-AD0B-47C0CA76C9D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713F90CD-5DD1-4812-92D8-AAC9883E9A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713F90CD-5DD1-4812-92D8-AAC9883E9A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713F90CD-5DD1-4812-92D8-AAC9883E9A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713F90CD-5DD1-4812-92D8-AAC9883E9A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70451EB8-465B-4A1A-A7D1-E87F60D606D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70451EB8-465B-4A1A-A7D1-E87F60D606D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70451EB8-465B-4A1A-A7D1-E87F60D606D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70451EB8-465B-4A1A-A7D1-E87F60D606D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9E0073-AE26-4A68-979E-D5B05AA036F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9E0073-AE26-4A68-979E-D5B05AA036F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9E0073-AE26-4A68-979E-D5B05AA036F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9E0073-AE26-4A68-979E-D5B05AA036F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B52F74D5-5A47-4048-B076-3B11B5CAE889}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B52F74D5-5A47-4048-B076-3B11B5CAE889}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B52F74D5-5A47-4048-B076-3B11B5CAE889}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B52F74D5-5A47-4048-B076-3B11B5CAE889}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F1FAFB-6062-41E6-B7D1-DD098A630261}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F1FAFB-6062-41E6-B7D1-DD098A630261}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F1FAFB-6062-41E6-B7D1-DD098A630261}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F1FAFB-6062-41E6-B7D1-DD098A630261}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DD1E323-5CF3-4FC8-9A37-6A3DC2711BC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD1E323-5CF3-4FC8-9A37-6A3DC2711BC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD1E323-5CF3-4FC8-9A37-6A3DC2711BC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD1E323-5CF3-4FC8-9A37-6A3DC2711BC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B910AE3B-B160-41E8-A5E1-16D4BD11D35F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B910AE3B-B160-41E8-A5E1-16D4BD11D35F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B910AE3B-B160-41E8-A5E1-16D4BD11D35F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B910AE3B-B160-41E8-A5E1-16D4BD11D35F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70E7096-2F65-4368-941F-0DC2B312754D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70E7096-2F65-4368-941F-0DC2B312754D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70E7096-2F65-4368-941F-0DC2B312754D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70E7096-2F65-4368-941F-0DC2B312754D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9B0A32A-7BF6-4C83-8E9E-9EDCEF64FFD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9B0A32A-7BF6-4C83-8E9E-9EDCEF64FFD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9B0A32A-7BF6-4C83-8E9E-9EDCEF64FFD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9B0A32A-7BF6-4C83-8E9E-9EDCEF64FFD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9C9E0073-AE26-4A68-979E-D5B05AA036F1} = {2F36C966-3679-4398-ADB3-DD98F2FFBA4D}
+		{B52F74D5-5A47-4048-B076-3B11B5CAE889} = {2F36C966-3679-4398-ADB3-DD98F2FFBA4D}
+		{60F1FAFB-6062-41E6-B7D1-DD098A630261} = {2F36C966-3679-4398-ADB3-DD98F2FFBA4D}
+		{0DD1E323-5CF3-4FC8-9A37-6A3DC2711BC5} = {2F36C966-3679-4398-ADB3-DD98F2FFBA4D}
+		{B910AE3B-B160-41E8-A5E1-16D4BD11D35F} = {2F36C966-3679-4398-ADB3-DD98F2FFBA4D}
+		{B9B0A32A-7BF6-4C83-8E9E-9EDCEF64FFD0} = {2F36C966-3679-4398-ADB3-DD98F2FFBA4D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0722CCAB-6DBD-462D-8CB2-61ACDB17732B}
+	EndGlobalSection
+EndGlobal
